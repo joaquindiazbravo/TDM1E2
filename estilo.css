@@ -1,0 +1,11 @@
+.contenedor{
+    text-align: center;
+    background-color: darkorange;
+    height: 508px;
+    width: 415px;
+}
+
+img{
+    height: 224px;
+    margin: 36px;
+}
