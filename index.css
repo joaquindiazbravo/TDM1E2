@@ -4,7 +4,7 @@ body{
 .menu{
     height: 84px;
     width: 100%;
-    background-color: 6dccaa;
+    background-color: #6dccaa;
     
 }
 
@@ -86,7 +86,7 @@ menu li:hover{
 }
 
     
-    #masonry {
+#masonry {
     height: 920px;
     width:100%;
     display: block;
@@ -123,9 +123,6 @@ menu li:hover{
     
     .img_gal {
     border-radius:1%;
-    /*-webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.23);
-    -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.23);
-    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);*/
     margin:2% 2% 1% 2%;
     }
     
@@ -143,7 +140,11 @@ menu li:hover{
     width: 93%;
     margin-left: 2%;
     }
-
+@media(max-width:800px){
+    #masonry {
+         height: 380px;
+    }
+}
 
 .art1 {
 display:inline-block;
